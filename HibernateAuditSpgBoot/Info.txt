@@ -1,0 +1,16 @@
+POM :
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-envers</artifactId>
+			<version>4.3.10.Final</version>
+		</dependency>
+		
+		
+Add @audited on model/entity
+
+Run it with ddl-auto=create
+
+It will create on revinfo table to save no. of revisions
+
+It will also create xyz_aud table for maintaining history
